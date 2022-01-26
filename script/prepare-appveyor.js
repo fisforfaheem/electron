@@ -10,9 +10,10 @@ const APPVEYOR_IMAGES_URL = 'https://ci.appveyor.com/api/build-clouds';
 const APPVEYOR_JOB_URL = 'https://ci.appveyor.com/api/builds';
 const ROLLER_BRANCH_PATTERN = /^roller\/chromium$/;
 
-const DEFAULT_BUILD_CLOUD_ID = '1424';
-const DEFAULT_BUILD_CLOUD = 'electron-16-core2';
-const DEFAULT_IMAGE = 'base-electron';
+// const DEFAULT_BUILD_CLOUD_ID = '1424';
+const DEFAULT_BUILD_CLOUD_ID = '861';
+const DEFAULT_BUILD_CLOUD = 'electron-16-core';
+const DEFAULT_IMAGE = 'vs2019bt-16.6.2';
 
 const appVeyorJobs = {
   'electron-x64': 'electron-ljo26' // 'electron-x64-testing'
