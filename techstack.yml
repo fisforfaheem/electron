@@ -1,11 +1,12 @@
 repo_name: fisforfaheem/electron
 report_id: 8b4c2945cc5386cb500a214a7196d94a
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-10T06:42:01+00:00'
+timestamp: '2024-01-05T08:58:29+00:00'
 requested_by: jkleinsc
 provider: github
 branch: main
-detected_tools_count: 80
+detected_tools_count: 82
 tools:
 - name: C lang
   description: One of the most widely used programming languages of all time
@@ -15,6 +16,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/fisforfaheem/electron
   detection_source: Repo Metadata
 - name: C++
   description: Has imperative, object-oriented and generic programming features, while
@@ -25,6 +27,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1049/cplusplus.png
+  detection_source_url: https://github.com/fisforfaheem/electron
   detection_source: Repo Metadata
 - name: CSS 3
   description: The latest evolution of the Cascading Style Sheets language
@@ -34,6 +37,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/fisforfaheem/electron
   detection_source: Repo Metadata
 - name: CoffeeScript
   description: A little language that compiles into JavaScript
@@ -44,6 +48,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1178/slQydAMv.png
+  detection_source_url: https://github.com/fisforfaheem/electron
   detection_source: Repo Metadata
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -54,6 +59,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/fisforfaheem/electron
   detection_source: Repo Metadata
 - name: Objective-C
   description: The primary programming language you use when writing software for
@@ -64,6 +70,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1008/xcode.png
+  detection_source_url: https://github.com/fisforfaheem/electron
   detection_source: Repo Metadata
 - name: Python
   description: A clear and powerful object-oriented programming language, comparable
@@ -74,6 +81,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/fisforfaheem/electron
   detection_source: Repo Metadata
 - name: TypeScript
   description: A superset of JavaScript that compiles to clean JavaScript output
@@ -84,6 +92,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/fisforfaheem/electron
   detection_source: Repo Metadata
 - name: ".NET"
   description: A free, cross-platform, open source developer platform for building
@@ -95,6 +104,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/fisforfaheem/electron/blob/main/package.json
   detection_source: package.json
   last_updated_by: Cheng Zhao
   last_updated_on: 2013-04-14 14:48:35.000000000 Z
@@ -109,7 +119,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Microframeworks (Backend)
   image_url: https://img.stackshare.io/service/1163/hashtag.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/fisforfaheem/electron/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: Samuel Attard
   last_updated_on: 2021-08-11 18:13:33.000000000 Z
@@ -122,7 +132,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
-  detection_source: package.json
+  detection_source_url: https://github.com/fisforfaheem/electron/blob/main/npm/package.json
+  detection_source: npm/package.json
   last_updated_by: Mathias Buus
   last_updated_on: 2014-10-20 04:17:38.000000000 Z
 - name: ws
@@ -134,7 +145,8 @@ tools:
   category: Application Hosting
   sub_category: Realtime Backend / API
   image_url: https://img.stackshare.io/service/11381/no-img-open-source.png
-  detection_source: spec/package.json
+  detection_source_url: https://github.com/fisforfaheem/electron/blob/main/spec-main/package.json
+  detection_source: spec-main/package.json
   last_updated_by: Samuel Attard
   last_updated_on: 2019-03-10 22:38:44.000000000 Z
 - name: Appveyor
@@ -145,6 +157,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/2011/5s66pnbt5v8tw6most5e.png
+  detection_source_url: https://github.com/fisforfaheem/electron/blob/main/spec/package.json
   detection_source: spec/package.json
   last_updated_by: Jeremy Apthorp
   last_updated_on: 2019-07-25 18:30:56.000000000 Z
@@ -158,8 +171,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/1725/chai.png
-  detection_source_url: spec/yarn.lock
-  detection_source: spec/package.json
+  detection_source_url: https://github.com/fisforfaheem/electron/blob/main/spec/yarn.lock
+  detection_source: package.json
   last_updated_by: Cheng Zhao
   last_updated_on: 2013-04-14 14:48:35.000000000 Z
 - name: CircleCI
@@ -170,6 +183,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/190/CvqrSSFs_400x400.jpg
+  detection_source_url: https://github.com/fisforfaheem/electron/blob/main/.circleci/config.yml
   detection_source: ".circleci/config.yml"
   last_updated_by: Keeley Hammond
   last_updated_on: 2021-11-29 23:09:07.000000000 Z
@@ -182,7 +196,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
-  detection_source: spec/.eslintrc
+  detection_source_url: https://github.com/fisforfaheem/electron/blob/main/package.json
+  detection_source: package.json
   last_updated_by: Cheng Zhao
   last_updated_on: 2013-04-14 14:48:35.000000000 Z
 - name: Git
@@ -193,6 +208,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/fisforfaheem/electron
   detection_source: Repo Metadata
 - name: Mocha
   description: Simple, flexible, fun javascript test framework for node.js &amp; the
@@ -205,8 +221,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/832/mocha.png
-  detection_source_url: spec/yarn.lock
-  detection_source: spec/package.json
+  detection_source_url: https://github.com/fisforfaheem/electron/blob/main/spec/yarn.lock
+  detection_source: package.json
   last_updated_by: Samuel Attard
   last_updated_on: 2020-07-09 04:19:49.000000000 Z
 - name: NuGet
@@ -217,6 +233,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/fisforfaheem/electron/blob/main/package.json
   detection_source: package.json
   last_updated_by: Cheng Zhao
   last_updated_on: 2013-04-14 14:48:35.000000000 Z
@@ -228,6 +245,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Tools for GitHub
   image_url: https://img.stackshare.io/service/9827/octokit-dotnet_2.png
+  detection_source_url: https://github.com/fisforfaheem/electron/blob/main/package.json
   detection_source: package.json
   last_updated_by: Samuel Attard
   last_updated_on: 2020-10-29 18:21:23.000000000 Z
@@ -240,7 +258,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/3509/logo.png
-  detection_source_url: spec-main/yarn.lock
+  detection_source_url: https://github.com/fisforfaheem/electron/blob/main/spec-main/yarn.lock
   detection_source: spec-main/package.json
   last_updated_by: Charles Kerr
   last_updated_on: 2020-06-08 18:39:44.000000000 Z
@@ -254,7 +272,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: JS Build Tools / JS Task Runners
   image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/fisforfaheem/electron/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: Julie Koubová
   last_updated_on: 2020-10-20 19:10:15.000000000 Z
@@ -266,7 +284,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
-  detection_source: yarn.lock
+  detection_source_url: https://github.com/fisforfaheem/electron/blob/main/spec-main/yarn.lock
+  detection_source: spec-main/yarn.lock
   last_updated_by: Jeremy Apthorp
   last_updated_on: 2019-10-09 23:33:15.000000000 Z
 - name: npm
@@ -277,6 +296,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/fisforfaheem/electron/blob/main/spec/package.json
   detection_source: spec/package.json
   last_updated_by: Cheng Zhao
   last_updated_on: 2013-07-17 08:28:14.000000000 Z
@@ -289,6 +309,7 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/8249/60c1d8501e4deb4a0f77f7f2fe145633_400x400.png
+  detection_source_url: https://github.com/fisforfaheem/electron/blob/main/spec-main/package.json
   detection_source: spec-main/package.json
   last_updated_by: Samuel Attard
   last_updated_on: 2019-03-10 22:38:44.000000000 Z
@@ -300,6 +321,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/3681/powershell-logo.png
+  detection_source_url: https://github.com/fisforfaheem/electron
   detection_source: Repo Metadata
 - name: Shell
   description: A shell is a text-based terminal, used for manipulating programs and
@@ -310,12 +332,14 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/fisforfaheem/electron
   detection_source: Repo Metadata
 - name: husky
   website_url: https://github.com/typicode/husky
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/9527/5502029.jpeg
+  detection_source_url: https://github.com/fisforfaheem/electron/blob/main/package.json
   detection_source: package.json
   last_updated_by: Naoki Maeda
   last_updated_on: 2021-04-29 07:46:15.000000000 Z
@@ -324,6 +348,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/10577/11071.jpeg
+  detection_source_url: https://github.com/fisforfaheem/electron/blob/main/package.json
   detection_source: package.json
   last_updated_by: Milan Burda
   last_updated_on: 2021-11-08 00:53:00.000000000 Z
@@ -337,7 +362,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16999/default_43f23668e39c9b3381720c9c76540776b8a49167.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/fisforfaheem/electron/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: Samuel Attard
   last_updated_on: 2020-10-29 18:21:23.000000000 Z
@@ -351,7 +376,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15922/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/fisforfaheem/electron/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: Michaela Laurencin
   last_updated_on: 2021-08-11 18:07:36.000000000 Z
@@ -365,7 +390,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16527/default_2e7c1d6d94467a56325f7c984571015e8713a450.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/fisforfaheem/electron/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: Michaela Laurencin
   last_updated_on: 2021-08-11 18:07:36.000000000 Z
@@ -379,7 +404,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16100/default_d947c1690e032a288145c7e2491999eab3ea8ede.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/fisforfaheem/electron/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: Samuel Attard
   last_updated_on: 2021-08-11 18:13:33.000000000 Z
@@ -393,7 +418,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16170/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/fisforfaheem/electron/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: Michaela Laurencin
   last_updated_on: 2021-08-11 18:07:36.000000000 Z
@@ -407,7 +432,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16976/default_824835a71140f223a333a5e10225c10368f12857.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/fisforfaheem/electron/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: Michaela Laurencin
   last_updated_on: 2021-08-11 18:07:36.000000000 Z
@@ -421,7 +446,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15893/default_1d65e37e65b7f80761374f0202776043277d505d.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/fisforfaheem/electron/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: Michaela Laurencin
   last_updated_on: 2021-08-11 18:07:36.000000000 Z
@@ -435,8 +460,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
-  detection_source_url: spec-main/yarn.lock
-  detection_source: package.json
+  detection_source_url: https://github.com/fisforfaheem/electron/blob/main/spec-main/yarn.lock
+  detection_source: npm/package.json
   last_updated_by: Shelley Vohr
   last_updated_on: 2020-09-17 22:08:57.000000000 Z
 - name: "@types/semver"
@@ -449,7 +474,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16694/default_4b738bf1758d38dddd276589bbea47fca5a990df.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/fisforfaheem/electron/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: Michaela Laurencin
   last_updated_on: 2021-08-11 18:07:36.000000000 Z
@@ -463,7 +488,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16151/default_ac04a744873b460c4ef30a7450ed0c83223640ab.png
-  detection_source_url: spec-main/yarn.lock
+  detection_source_url: https://github.com/fisforfaheem/electron/blob/main/spec-main/yarn.lock
   detection_source: spec-main/package.json
   last_updated_by: Charles Kerr
   last_updated_on: 2020-06-08 18:39:44.000000000 Z
@@ -477,7 +502,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16257/default_ab17554b7e80af3d234b14168ed61e75d43f8eee.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/fisforfaheem/electron/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: Michaela Laurencin
   last_updated_on: 2021-08-11 18:07:36.000000000 Z
@@ -491,7 +516,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16215/default_41f04716a804e853d5c38a5b81ee0ea8a842ad82.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/fisforfaheem/electron/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: Michaela Laurencin
   last_updated_on: 2021-08-11 18:07:36.000000000 Z
@@ -505,7 +530,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16614/default_5a21421012fa20e57fe0aeab31228f42e7118abc.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/fisforfaheem/electron/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: Michaela Laurencin
   last_updated_on: 2021-08-11 18:07:36.000000000 Z
@@ -519,7 +544,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16711/default_9cd376f2200c8f6c32ebd690bb6c290852dee64d.png
-  detection_source_url: spec-main/yarn.lock
+  detection_source_url: https://github.com/fisforfaheem/electron/blob/main/spec-main/yarn.lock
   detection_source: spec-main/package.json
   last_updated_by: Charles Kerr
   last_updated_on: 2020-06-08 18:39:44.000000000 Z
@@ -533,7 +558,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/fisforfaheem/electron/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: Milan Burda
   last_updated_on: 2021-11-08 00:53:00.000000000 Z
@@ -547,7 +572,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/fisforfaheem/electron/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: Milan Burda
   last_updated_on: 2021-11-16 04:13:18.000000000 Z
@@ -561,7 +586,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16018/default_7a88bebb451873cc63bd99007de5bd3bb8ef85de.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/fisforfaheem/electron/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2021-11-22 00:50:36.000000000 Z
@@ -575,7 +600,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17338/default_b39374c3a74b433364bfdbff07be26214bf186fd.png
-  detection_source_url: spec/yarn.lock
+  detection_source_url: https://github.com/fisforfaheem/electron/blob/main/spec/yarn.lock
   detection_source: spec/package.json
   last_updated_by: Charles Kerr
   last_updated_on: 2019-02-11 19:12:13.000000000 Z
@@ -589,7 +614,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17905/default_e0b07170ab7d7ea66954ff35fdeaae5255c4c0aa.png
-  detection_source_url: spec-main/yarn.lock
+  detection_source_url: https://github.com/fisforfaheem/electron/blob/main/spec-main/yarn.lock
   detection_source: spec-main/package.json
   last_updated_by: Jeremy Apthorp
   last_updated_on: 2020-04-22 22:53:12.000000000 Z
@@ -603,8 +628,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15970/default_cbd6c289400672b291755183817e9dd6abe1a612.png
-  detection_source_url: spec-main/yarn.lock
-  detection_source: spec/package.json
+  detection_source_url: https://github.com/fisforfaheem/electron/blob/main/spec-main/yarn.lock
+  detection_source: spec-main/package.json
   last_updated_by: Shelley Vohr
   last_updated_on: 2020-01-30 20:12:35.000000000 Z
 - name: colors
@@ -617,7 +642,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15908/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/fisforfaheem/electron/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: Charles Kerr
   last_updated_on: 2022-01-11 19:24:54.000000000 Z
@@ -631,8 +656,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16853/default_665377899254fe85c1cf6bf7f15e24c4180a76ac.png
-  detection_source_url: spec-main/yarn.lock
-  detection_source: spec/package.json
+  detection_source_url: https://github.com/fisforfaheem/electron/blob/main/spec-main/yarn.lock
+  detection_source: spec-main/package.json
   last_updated_by: Shelley Vohr
   last_updated_on: 2020-01-30 20:12:35.000000000 Z
 - name: eslint-config-standard
@@ -645,7 +670,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15872/default_e4668902f8489350db9b0fb228523a571ef05b26.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/fisforfaheem/electron/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: Milan Burda
   last_updated_on: 2021-11-08 00:53:00.000000000 Z
@@ -659,7 +684,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/fisforfaheem/electron/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: Milan Burda
   last_updated_on: 2021-11-08 00:53:00.000000000 Z
@@ -673,7 +698,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16194/default_fef27d1523ac1844fc00e83e47bddd8898ff8a89.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/fisforfaheem/electron/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: Milan Burda
   last_updated_on: 2021-11-08 00:53:00.000000000 Z
@@ -687,7 +712,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15874/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/fisforfaheem/electron/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: Milan Burda
   last_updated_on: 2021-11-08 00:53:00.000000000 Z
@@ -701,7 +726,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15884/default_1d65e37e65b7f80761374f0202776043277d505d.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/fisforfaheem/electron/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: Milan Burda
   last_updated_on: 2021-11-08 00:53:00.000000000 Z
@@ -715,7 +740,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17077/default_43f23668e39c9b3381720c9c76540776b8a49167.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/fisforfaheem/electron/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: Milan Burda
   last_updated_on: 2021-11-08 00:53:00.000000000 Z
@@ -729,7 +754,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/fisforfaheem/electron/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: Samuel Attard
   last_updated_on: 2021-08-11 18:13:33.000000000 Z
@@ -750,7 +775,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17488/default_2ae5beb193365eca46e337162957275ebc9c6b3b.png
-  detection_source_url: npm/package.json
+  detection_source_url: https://github.com/fisforfaheem/electron/blob/main/npm/package.json
   detection_source: npm/package.json
   last_updated_by: Zeke Sikelianos
   last_updated_on: 2017-05-11 06:38:51.000000000 Z
@@ -765,7 +790,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15836/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/fisforfaheem/electron/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: Samuel Attard
   last_updated_on: 2020-07-09 17:57:50.000000000 Z
@@ -779,7 +804,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16258/default_ab17554b7e80af3d234b14168ed61e75d43f8eee.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/fisforfaheem/electron/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: Cheng Zhao
   last_updated_on: 2013-04-14 14:48:35.000000000 Z
@@ -800,10 +825,24 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16375/default_c47f6a56d74fae4d4404d77067b2fa35da6f1924.png
-  detection_source_url: spec/yarn.lock
+  detection_source_url: https://github.com/fisforfaheem/electron/blob/main/spec/yarn.lock
   detection_source: spec/package.json
   last_updated_by: Charles Kerr
   last_updated_on: 2019-02-11 19:12:13.000000000 Z
+- name: husky
+  description: Prevents bad commit or push
+  package_url: https://www.npmjs.com/husky
+  version: 6.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15831/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/fisforfaheem/electron/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Naoki Maeda
+  last_updated_on: 2021-04-29 07:46:15.000000000 Z
 - name: klaw
   description: File system walker with Readable stream interface
   package_url: https://www.npmjs.com/klaw
@@ -814,10 +853,24 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18501/default_e81b0bd76811f164978fa6f4c4f71e0f1ccf1507.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/fisforfaheem/electron/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: David Sanders
   last_updated_on: 2020-11-05 01:24:17.000000000 Z
+- name: lint-staged
+  description: Lint files staged by git
+  package_url: https://www.npmjs.com/lint-staged
+  version: 10.2.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15868/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/fisforfaheem/electron/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: Milan Burda
+  last_updated_on: 2021-11-08 00:53:00.000000000 Z
 - name: markdownlint-cli
   description: MarkdownLint Command Line Interface
   package_url: https://www.npmjs.com/markdownlint-cli
@@ -828,7 +881,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17273/default_b2015e9577d171c4c3f12c3c8d253c01fe63ba8d.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/fisforfaheem/electron/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: Milan Burda
   last_updated_on: 2021-11-08 00:53:00.000000000 Z
@@ -842,7 +895,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15918/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
-  detection_source_url: spec-main/yarn.lock
+  detection_source_url: https://github.com/fisforfaheem/electron/blob/main/spec-main/yarn.lock
   detection_source: package.json
   last_updated_by: David Sanders
   last_updated_on: 2020-11-05 01:24:17.000000000 Z
@@ -863,7 +916,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15881/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
-  detection_source_url: spec/yarn.lock
+  detection_source_url: https://github.com/fisforfaheem/electron/blob/main/spec/yarn.lock
   detection_source: spec/package.json
   last_updated_by: Charles Kerr
   last_updated_on: 2019-02-11 19:12:13.000000000 Z
@@ -877,7 +930,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16739/default_ee69dab268e6a52104564fd4259549f5b48a25d4.png
-  detection_source_url: spec/yarn.lock
+  detection_source_url: https://github.com/fisforfaheem/electron/blob/main/spec/yarn.lock
   detection_source: spec/package.json
   last_updated_by: Jeremy Apthorp
   last_updated_on: 2019-07-25 18:30:56.000000000 Z
@@ -891,7 +944,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16787/default_6c86c81e45e0f08d11e77cb7e07388a0317cf081.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/fisforfaheem/electron/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: Samuel Attard
   last_updated_on: 2020-08-24 18:23:25.000000000 Z
@@ -905,7 +958,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18053/image.png
-  detection_source_url: spec-main/yarn.lock
+  detection_source_url: https://github.com/fisforfaheem/electron/blob/main/spec-main/yarn.lock
   detection_source: spec-main/package.json
   last_updated_by: Shelley Vohr
   last_updated_on: 2020-01-30 20:12:35.000000000 Z
@@ -919,7 +972,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15974/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
-  detection_source_url: spec-main/yarn.lock
+  detection_source_url: https://github.com/fisforfaheem/electron/blob/main/spec-main/yarn.lock
   detection_source: spec-main/package.json
   last_updated_by: Samuel Attard
   last_updated_on: 2019-03-10 22:38:44.000000000 Z
@@ -933,7 +986,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16755/default_6dc099b12d47e378ae121fb53c336fe5d8f0ffc8.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/fisforfaheem/electron/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: Samuel Attard
   last_updated_on: 2021-08-11 18:13:33.000000000 Z
@@ -948,7 +1001,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17093/default_1dbf402c11ef653fcaedc84e608a244e30ebfb87.png
-  detection_source_url: spec/yarn.lock
+  detection_source_url: https://github.com/fisforfaheem/electron/blob/main/spec/yarn.lock
   detection_source: spec/package.json
   last_updated_by: Shelley Vohr
   last_updated_on: 2018-05-22 04:15:18.000000000 Z
@@ -962,7 +1015,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16496/default_55f3303d620c93eecbee69c43373d484f2be492f.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/fisforfaheem/electron/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: Cheng Zhao
   last_updated_on: 2013-04-14 14:48:35.000000000 Z
@@ -976,7 +1029,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16847/default_9a5182350af29cb82b3344853e865051f508ac6c.png
-  detection_source_url: spec/yarn.lock
+  detection_source_url: https://github.com/fisforfaheem/electron/blob/main/spec/yarn.lock
   detection_source: spec/package.json
   last_updated_by: Jeremy Apthorp
   last_updated_on: 2019-03-12 15:56:28.000000000 Z
@@ -990,8 +1043,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16400/default_9ae0e75ed749aca83d89f7e1ccb309be2bfc610e.png
-  detection_source_url: spec/yarn.lock
-  detection_source: spec/package.json
+  detection_source_url: https://github.com/fisforfaheem/electron/blob/main/spec/yarn.lock
+  detection_source: package.json
   last_updated_by: Samuel Attard
   last_updated_on: 2021-02-25 21:08:34.000000000 Z
 - name: ts-loader
@@ -1004,7 +1057,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15938/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/fisforfaheem/electron/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: Samuel Attard
   last_updated_on: 2020-08-24 18:23:25.000000000 Z
@@ -1018,7 +1071,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15830/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/fisforfaheem/electron/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: David Sanders
   last_updated_on: 2020-11-05 01:24:17.000000000 Z
@@ -1032,7 +1085,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15916/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
-  detection_source_url: spec/yarn.lock
+  detection_source_url: https://github.com/fisforfaheem/electron/blob/main/spec/yarn.lock
   detection_source: spec/package.json
   last_updated_by: Samuel Attard
   last_updated_on: 2020-02-20 23:19:06.000000000 Z
@@ -1046,7 +1099,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15826/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/fisforfaheem/electron/blob/main/yarn.lock
   detection_source: package.json
   last_updated_by: Samuel Attard
   last_updated_on: 2021-08-11 18:13:33.000000000 Z
@@ -1060,7 +1113,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15887/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
-  detection_source_url: spec/yarn.lock
+  detection_source_url: https://github.com/fisforfaheem/electron/blob/main/spec/yarn.lock
   detection_source: spec/package.json
   last_updated_by: Samuel Attard
   last_updated_on: 2020-09-14 21:00:15.000000000 Z
