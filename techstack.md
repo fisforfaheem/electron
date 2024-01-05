@@ -1,7 +1,8 @@
 <!--
---- Readme.md Snippet without images Start ---
+&lt;--- Readme.md Snippet without images Start ---&gt;
 ## Tech Stack
 fisforfaheem/electron is built on the following main stack:
+
 - [CircleCI](https://circleci.com/) – Continuous Integration
 - [Mocha](http://mochajs.org/) – Javascript Testing Framework
 - [Python](https://www.python.org) – Languages
@@ -27,11 +28,13 @@ fisforfaheem/electron is built on the following main stack:
 - [ws](https://github.com/websockets/ws) – Realtime Backend / API
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet without images End ---
 
---- Readme.md Snippet with images Start ---
+&lt;--- Readme.md Snippet without images End ---&gt;
+
+&lt;--- Readme.md Snippet with images Start ---&gt;
 ## Tech Stack
 fisforfaheem/electron is built on the following main stack:
+
 - <img width='25' height='25' src='https://img.stackshare.io/service/190/CvqrSSFs_400x400.jpg' alt='CircleCI'/> [CircleCI](https://circleci.com/) – Continuous Integration
 - <img width='25' height='25' src='https://img.stackshare.io/service/832/mocha.png' alt='Mocha'/> [Mocha](http://mochajs.org/) – Javascript Testing Framework
 - <img width='25' height='25' src='https://img.stackshare.io/service/993/pUBY5pVj.png' alt='Python'/> [Python](https://www.python.org) – Languages
@@ -57,14 +60,15 @@ fisforfaheem/electron is built on the following main stack:
 - <img width='25' height='25' src='https://img.stackshare.io/service/11381/no-img-open-source.png' alt='ws'/> [ws](https://github.com/websockets/ws) – Realtime Backend / API
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet with images End ---
+
+&lt;--- Readme.md Snippet with images End ---&gt;
 -->
 <div align="center">
 
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [fisforfaheem/electron](https://github.com/fisforfaheem/electron)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|80<br/>Tools used|11/10/23 <br/>Report generated|
+|82<br/>Tools used|01/05/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -328,9 +332,9 @@ Full tech stack [here](/techstack.md)
 </table>
 
 
-## <img src='https://img.stackshare.io/group.svg' /> Open source packages (51)</h2>
+## <img src='https://img.stackshare.io/group.svg' /> Open source packages (53)</h2>
 
-## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (51)
+## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (53)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
@@ -367,7 +371,9 @@ Full tech stack [here](/techstack.md)
 |[fs-extra](https://www.npmjs.com/fs-extra)|v7.0.1|07/09/20|Samuel Attard |MIT|N/A|
 |[got](https://www.npmjs.com/got)|v6.7.1|04/14/13|Cheng Zhao |MIT|[CVE-2022-33987](https://github.com/advisories/GHSA-pfrx-2q88-qq97) (Moderate)|
 |[graceful-fs](https://www.npmjs.com/graceful-fs)|v4.1.15|02/11/19|Charles Kerr |ISC|N/A|
+|[husky](https://www.npmjs.com/husky)|v6.0.0|04/29/21|Naoki Maeda |MIT|N/A|
 |[klaw](https://www.npmjs.com/klaw)|v3.0.0|11/05/20|David Sanders |MIT|N/A|
+|[lint-staged](https://www.npmjs.com/lint-staged)|v10.2.11|11/08/21|Milan Burda |MIT|N/A|
 |[markdownlint-cli](https://www.npmjs.com/markdownlint-cli)|v0.25.0|11/08/21|Milan Burda |MIT|N/A|
 |[minimist](https://www.npmjs.com/minimist)|v1.2.5|11/05/20|David Sanders |MIT|[CVE-2021-44906](https://github.com/advisories/GHSA-xvch-5gv4-984h) (Critical)|
 |[mkdirp](https://www.npmjs.com/mkdirp)|v0.5.1|02/11/19|Charles Kerr |MIT|N/A|
@@ -389,4 +395,4 @@ Full tech stack [here](/techstack.md)
 <br/>
 <div align='center'>
 
-Generated via [Stack File](https://github.com/apps/stack-file)
+Generated via [Stack File](https://github.com/marketplace/stack-file)
